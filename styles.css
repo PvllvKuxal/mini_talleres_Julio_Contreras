@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-height: 70px;
+    padding: 15px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.buscador img {
+    width: 50px; 
+    height: auto;
+    margin-right: 2px;
+    border-left:1px solid #ccc  ;
+}
+
+.buscador span {
+    font-weight: bold;
+    color: black;
+    margin:15px;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.suscribirse-btn {
+    font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
+    padding: 10px 20px;
+    background-color: #ffba07;
+    color: black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #cc343d;
+}
+
+.logo a span {
+    font-size: 25px;
+    background-color: #cc343d;
+    color: white;
+    padding: 1px 5px;
+    margin-right: 5px;
+}
+
+
+/*-------------Contenido de la noticia-------------*/
+
+.cuerpo {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin: 30px auto;
+}
+
+.contenido {
+    left: 0;
+    width: 45%;
+    align-content: space-between;
+}
+
+.tags span{
+    margin: 10px 5px;
+}
+
+.tag1{
+    background-color: #aa272f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.tag2{
+    background-color: #1b3043;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.tag-politica{
+    margin-left: 0;
+    color: black;
+    font-weight: bold;
+}
+
+.mas {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.titulo {
+    font-family: title-fonts;
+    font-size: 42px;
+    color: #000;
+    font-weight:bolder;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    padding-top: 20px;
+}
+
+.subtitulo {
+    line-height: 2rem;
+    font-size: 1.45rem;
+    font-weight: var(--weight-light);
+    font-family: text-fonts;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+/*-------------------------Apartado de imagen-------------------------*/
+
+.imagen {
+    width: 50%;
+    margin-left: 0;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+
+.imagen span {
+    color: #646464;
+    font-family: var(--system-font);
+    font-size: 0.84rem;
+    line-height: 1.4;
+    margin: 5px 0;
+    text-align: left
+}
+
+/*--------------------Pie de pagina--------------------*/
+
+.info-autor {
+    justify-content: start;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    font-size: 10px;
+    color: #666;
+}
+
+.info-autor b{
+    margin: 0 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+.info-autor a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #666;
+}
